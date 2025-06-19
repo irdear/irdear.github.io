@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://irdear.github.io/frontendfinal/sitemap.xml
