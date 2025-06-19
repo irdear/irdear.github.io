@@ -1,0 +1,27 @@
+/* Navigatielinks oranje en responsive maken */
+nav a {
+  color: #FF9800; /* Oranje */
+  text-decoration: none;
+  padding: 10px 16px;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #003366; /* Marineblauw als accentkleur */
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 1.2em;
+  }
+}
